@@ -29,6 +29,7 @@
 		AF69210C221BF67B00BE797B /* UITableView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF69210A221BF67A00BE797B /* UITableView+Reusable.swift */; };
 		AFBBC5CB221D5F1B009943B4 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBBC5CA221D5F1B009943B4 /* Model.swift */; };
 		AFBBC5CE221D60F9009943B4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBBC5CD221D60F9009943B4 /* DetailViewController.swift */; };
+		AFBBC5D0221D679D009943B4 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = AFBBC5CF221D679D009943B4 /* LICENSE.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +70,7 @@
 		AF69210A221BF67A00BE797B /* UITableView+Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Reusable.swift"; sourceTree = "<group>"; };
 		AFBBC5CA221D5F1B009943B4 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		AFBBC5CD221D60F9009943B4 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		AFBBC5CF221D679D009943B4 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 		AF6920DE221BD87F00BE797B /* NYAlertViewController */ = {
 			isa = PBXGroup;
 			children = (
+				AFBBC5CF221D679D009943B4 /* LICENSE.md */,
 				AF6920E4221BD87F00BE797B /* Private */,
 				AF6920DF221BD87F00BE797B /* NYAlertAction.h */,
 				AF6920F5221BD87F00BE797B /* NYAlertAction.m */,
@@ -224,6 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFBBC5D0221D679D009943B4 /* LICENSE.md in Resources */,
 				AF6920D1221BD3FA00BE797B /* LaunchScreen.storyboard in Resources */,
 				AF6920CE221BD3FA00BE797B /* Assets.xcassets in Resources */,
 				AF692108221BF53600BE797B /* AlertTableViewCell.xib in Resources */,
