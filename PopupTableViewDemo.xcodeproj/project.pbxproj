@@ -7,21 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF552C7F221D2DF300D7ABB1 /* NYAlertViewButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AF552C7D221D2DF300D7ABB1 /* NYAlertViewButton.m */; };
 		AF6920C7221BD3F300BE797B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6920C6221BD3F300BE797B /* AppDelegate.swift */; };
-		AF6920C9221BD3F300BE797B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6920C8221BD3F300BE797B /* ViewController.swift */; };
+		AF6920C9221BD3F300BE797B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6920C8221BD3F300BE797B /* HomeViewController.swift */; };
 		AF6920CC221BD3F300BE797B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF6920CA221BD3F300BE797B /* Main.storyboard */; };
 		AF6920CE221BD3FA00BE797B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF6920CD221BD3FA00BE797B /* Assets.xcassets */; };
 		AF6920D1221BD3FA00BE797B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF6920CF221BD3FA00BE797B /* LaunchScreen.storyboard */; };
+		AF6920F8221BD88000BE797B /* NYAlertViewControllerConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6920E1221BD87F00BE797B /* NYAlertViewControllerConfiguration.m */; };
+		AF6920F9221BD88000BE797B /* NYAlertActionConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6920E3221BD87F00BE797B /* NYAlertActionConfiguration.m */; };
+		AF6920FB221BD88000BE797B /* NYAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6920E7221BD87F00BE797B /* NYAlertView.m */; };
+		AF6920FC221BD88000BE797B /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6920EA221BD87F00BE797B /* UIView+Additions.m */; };
+		AF6920FD221BD88000BE797B /* NYAlertViewPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6920ED221BD87F00BE797B /* NYAlertViewPresentationController.m */; };
+		AF6920FE221BD88000BE797B /* NYAlertViewDismissalAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6920F1221BD87F00BE797B /* NYAlertViewDismissalAnimationController.m */; };
+		AF6920FF221BD88000BE797B /* NYAlertViewPresentationAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6920F2221BD87F00BE797B /* NYAlertViewPresentationAnimationController.m */; };
+		AF692101221BD88000BE797B /* NYAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6920F4221BD87F00BE797B /* NYAlertViewController.m */; };
+		AF692102221BD88000BE797B /* NYAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6920F5221BD87F00BE797B /* NYAlertAction.m */; };
+		AF692104221BD8F400BE797B /* PopupAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF692103221BD8F400BE797B /* PopupAlertViewController.swift */; };
+		AF692107221BF53600BE797B /* AlertTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF692105221BF53600BE797B /* AlertTableViewCell.swift */; };
+		AF692108221BF53600BE797B /* AlertTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF692106221BF53600BE797B /* AlertTableViewCell.xib */; };
+		AF69210B221BF67B00BE797B /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF692109221BF67A00BE797B /* Reusable.swift */; };
+		AF69210C221BF67B00BE797B /* UITableView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF69210A221BF67A00BE797B /* UITableView+Reusable.swift */; };
+		AFBBC5CB221D5F1B009943B4 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBBC5CA221D5F1B009943B4 /* Model.swift */; };
+		AFBBC5CE221D60F9009943B4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBBC5CD221D60F9009943B4 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF552C7D221D2DF300D7ABB1 /* NYAlertViewButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYAlertViewButton.m; sourceTree = "<group>"; };
+		AF552C7E221D2DF300D7ABB1 /* NYAlertViewButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYAlertViewButton.h; sourceTree = "<group>"; };
 		AF6920C3221BD3F300BE797B /* PopupTableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopupTableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF6920C6221BD3F300BE797B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AF6920C8221BD3F300BE797B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF6920C8221BD3F300BE797B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		AF6920CB221BD3F300BE797B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF6920CD221BD3FA00BE797B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF6920D0221BD3FA00BE797B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF6920D2221BD3FA00BE797B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF6920DA221BD86300BE797B /* PopupTableViewDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PopupTableViewDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		AF6920DF221BD87F00BE797B /* NYAlertAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYAlertAction.h; sourceTree = "<group>"; };
+		AF6920E0221BD87F00BE797B /* NYAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYAlertViewController.h; sourceTree = "<group>"; };
+		AF6920E1221BD87F00BE797B /* NYAlertViewControllerConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYAlertViewControllerConfiguration.m; sourceTree = "<group>"; };
+		AF6920E2221BD87F00BE797B /* NYAlertViewControllerTransitionStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYAlertViewControllerTransitionStyle.h; sourceTree = "<group>"; };
+		AF6920E3221BD87F00BE797B /* NYAlertActionConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYAlertActionConfiguration.m; sourceTree = "<group>"; };
+		AF6920E6221BD87F00BE797B /* NYAlertViewPresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYAlertViewPresentationController.h; sourceTree = "<group>"; };
+		AF6920E7221BD87F00BE797B /* NYAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYAlertView.m; sourceTree = "<group>"; };
+		AF6920E8221BD87F00BE797B /* NYAlertAction+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NYAlertAction+Private.h"; sourceTree = "<group>"; };
+		AF6920E9221BD87F00BE797B /* NYAlertViewDismissalAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYAlertViewDismissalAnimationController.h; sourceTree = "<group>"; };
+		AF6920EA221BD87F00BE797B /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
+		AF6920EC221BD87F00BE797B /* NYAlertViewPresentationAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYAlertViewPresentationAnimationController.h; sourceTree = "<group>"; };
+		AF6920ED221BD87F00BE797B /* NYAlertViewPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYAlertViewPresentationController.m; sourceTree = "<group>"; };
+		AF6920EF221BD87F00BE797B /* NYAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYAlertView.h; sourceTree = "<group>"; };
+		AF6920F0221BD87F00BE797B /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
+		AF6920F1221BD87F00BE797B /* NYAlertViewDismissalAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYAlertViewDismissalAnimationController.m; sourceTree = "<group>"; };
+		AF6920F2221BD87F00BE797B /* NYAlertViewPresentationAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYAlertViewPresentationAnimationController.m; sourceTree = "<group>"; };
+		AF6920F4221BD87F00BE797B /* NYAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYAlertViewController.m; sourceTree = "<group>"; };
+		AF6920F5221BD87F00BE797B /* NYAlertAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYAlertAction.m; sourceTree = "<group>"; };
+		AF6920F6221BD87F00BE797B /* NYAlertViewControllerConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYAlertViewControllerConfiguration.h; sourceTree = "<group>"; };
+		AF6920F7221BD87F00BE797B /* NYAlertActionConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYAlertActionConfiguration.h; sourceTree = "<group>"; };
+		AF692103221BD8F400BE797B /* PopupAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupAlertViewController.swift; sourceTree = "<group>"; };
+		AF692105221BF53600BE797B /* AlertTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertTableViewCell.swift; sourceTree = "<group>"; };
+		AF692106221BF53600BE797B /* AlertTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertTableViewCell.xib; sourceTree = "<group>"; };
+		AF692109221BF67A00BE797B /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		AF69210A221BF67A00BE797B /* UITableView+Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Reusable.swift"; sourceTree = "<group>"; };
+		AFBBC5CA221D5F1B009943B4 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		AFBBC5CD221D60F9009943B4 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +101,68 @@
 		AF6920C5221BD3F300BE797B /* PopupTableViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AF6920DE221BD87F00BE797B /* NYAlertViewController */,
 				AF6920C6221BD3F300BE797B /* AppDelegate.swift */,
-				AF6920C8221BD3F300BE797B /* ViewController.swift */,
+				AFBBC5CC221D60D3009943B4 /* Swift */,
 				AF6920CA221BD3F300BE797B /* Main.storyboard */,
 				AF6920CD221BD3FA00BE797B /* Assets.xcassets */,
 				AF6920CF221BD3FA00BE797B /* LaunchScreen.storyboard */,
 				AF6920D2221BD3FA00BE797B /* Info.plist */,
+				AF6920DA221BD86300BE797B /* PopupTableViewDemo-Bridging-Header.h */,
 			);
 			path = PopupTableViewDemo;
+			sourceTree = "<group>";
+		};
+		AF6920DE221BD87F00BE797B /* NYAlertViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AF6920E4221BD87F00BE797B /* Private */,
+				AF6920DF221BD87F00BE797B /* NYAlertAction.h */,
+				AF6920F5221BD87F00BE797B /* NYAlertAction.m */,
+				AF6920E0221BD87F00BE797B /* NYAlertViewController.h */,
+				AF6920F4221BD87F00BE797B /* NYAlertViewController.m */,
+				AF6920F7221BD87F00BE797B /* NYAlertActionConfiguration.h */,
+				AF6920E3221BD87F00BE797B /* NYAlertActionConfiguration.m */,
+				AF6920F6221BD87F00BE797B /* NYAlertViewControllerConfiguration.h */,
+				AF6920E1221BD87F00BE797B /* NYAlertViewControllerConfiguration.m */,
+				AF6920E2221BD87F00BE797B /* NYAlertViewControllerTransitionStyle.h */,
+			);
+			path = NYAlertViewController;
+			sourceTree = "<group>";
+		};
+		AF6920E4221BD87F00BE797B /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				AF6920EF221BD87F00BE797B /* NYAlertView.h */,
+				AF6920E7221BD87F00BE797B /* NYAlertView.m */,
+				AF6920F0221BD87F00BE797B /* UIView+Additions.h */,
+				AF6920EA221BD87F00BE797B /* UIView+Additions.m */,
+				AF6920E8221BD87F00BE797B /* NYAlertAction+Private.h */,
+				AF552C7E221D2DF300D7ABB1 /* NYAlertViewButton.h */,
+				AF552C7D221D2DF300D7ABB1 /* NYAlertViewButton.m */,
+				AF6920E6221BD87F00BE797B /* NYAlertViewPresentationController.h */,
+				AF6920ED221BD87F00BE797B /* NYAlertViewPresentationController.m */,
+				AF6920E9221BD87F00BE797B /* NYAlertViewDismissalAnimationController.h */,
+				AF6920F1221BD87F00BE797B /* NYAlertViewDismissalAnimationController.m */,
+				AF6920EC221BD87F00BE797B /* NYAlertViewPresentationAnimationController.h */,
+				AF6920F2221BD87F00BE797B /* NYAlertViewPresentationAnimationController.m */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		AFBBC5CC221D60D3009943B4 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				AFBBC5CA221D5F1B009943B4 /* Model.swift */,
+				AF6920C8221BD3F300BE797B /* HomeViewController.swift */,
+				AFBBC5CD221D60F9009943B4 /* DetailViewController.swift */,
+				AF692103221BD8F400BE797B /* PopupAlertViewController.swift */,
+				AF692105221BF53600BE797B /* AlertTableViewCell.swift */,
+				AF692106221BF53600BE797B /* AlertTableViewCell.xib */,
+				AF692109221BF67A00BE797B /* Reusable.swift */,
+				AF69210A221BF67A00BE797B /* UITableView+Reusable.swift */,
+			);
+			path = Swift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +197,7 @@
 				TargetAttributes = {
 					AF6920C2221BD3F300BE797B = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -124,6 +226,7 @@
 			files = (
 				AF6920D1221BD3FA00BE797B /* LaunchScreen.storyboard in Resources */,
 				AF6920CE221BD3FA00BE797B /* Assets.xcassets in Resources */,
+				AF692108221BF53600BE797B /* AlertTableViewCell.xib in Resources */,
 				AF6920CC221BD3F300BE797B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +238,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF6920C9221BD3F300BE797B /* ViewController.swift in Sources */,
+				AF6920FC221BD88000BE797B /* UIView+Additions.m in Sources */,
+				AF6920FE221BD88000BE797B /* NYAlertViewDismissalAnimationController.m in Sources */,
+				AF6920FD221BD88000BE797B /* NYAlertViewPresentationController.m in Sources */,
+				AF6920F8221BD88000BE797B /* NYAlertViewControllerConfiguration.m in Sources */,
+				AF552C7F221D2DF300D7ABB1 /* NYAlertViewButton.m in Sources */,
+				AF6920C9221BD3F300BE797B /* HomeViewController.swift in Sources */,
+				AF6920F9221BD88000BE797B /* NYAlertActionConfiguration.m in Sources */,
+				AF69210C221BF67B00BE797B /* UITableView+Reusable.swift in Sources */,
+				AF692102221BD88000BE797B /* NYAlertAction.m in Sources */,
+				AFBBC5CE221D60F9009943B4 /* DetailViewController.swift in Sources */,
 				AF6920C7221BD3F300BE797B /* AppDelegate.swift in Sources */,
+				AFBBC5CB221D5F1B009943B4 /* Model.swift in Sources */,
+				AF692107221BF53600BE797B /* AlertTableViewCell.swift in Sources */,
+				AF692101221BD88000BE797B /* NYAlertViewController.m in Sources */,
+				AF69210B221BF67B00BE797B /* Reusable.swift in Sources */,
+				AF6920FB221BD88000BE797B /* NYAlertView.m in Sources */,
+				AF692104221BD8F400BE797B /* PopupAlertViewController.swift in Sources */,
+				AF6920FF221BD88000BE797B /* NYAlertViewPresentationAnimationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +332,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -268,7 +387,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,6 +401,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2BL4KQW6R5;
 				INFOPLIST_FILE = PopupTableViewDemo/Info.plist;
@@ -291,6 +411,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bjitgroup.PopupTableViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PopupTableViewDemo/PopupTableViewDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,6 +422,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2BL4KQW6R5;
 				INFOPLIST_FILE = PopupTableViewDemo/Info.plist;
@@ -309,6 +432,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bjitgroup.PopupTableViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PopupTableViewDemo/PopupTableViewDemo-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
